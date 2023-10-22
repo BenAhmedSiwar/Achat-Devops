@@ -73,4 +73,13 @@
 		</plugins>
 	</build>
 
+	<!-- Deploy to Nexus -->
+	<distributionManagement>
+		<repository>
+			<id>deploymentRepo</id>
+			<name>Achat-Devops</name>
+			<url>https://github.com/BenAhmedSiwar/Achat-Devops.git</url>
+		</repository>
+	</distributionManagement>
+
 </project>
